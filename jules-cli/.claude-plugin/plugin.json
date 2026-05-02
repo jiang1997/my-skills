@@ -1,0 +1,10 @@
+{
+  "name": "jules-cli",
+  "version": "1.0.0",
+  "description": "Delegate suitable coding tasks from Claude Code to Google Jules CLI, monitor sessions, and pull/review results.",
+  "author": {
+    "name": "jieke"
+  },
+  "license": "MIT",
+  "keywords": ["jules", "google", "delegation", "cli"]
+}
