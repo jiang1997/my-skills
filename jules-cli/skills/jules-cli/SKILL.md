@@ -1,6 +1,7 @@
 ---
 name: jules-cli
 description: Use when the user wants to delegate coding tasks to Google Jules CLI from Claude Code. Handles jules installation checks, authentication, session creation, monitoring, pulling results, and local review before merging.
+allowed-tools: Bash(jules *) Bash(npm *) Bash(git *)
 ---
 
 # Jules CLI workflow
@@ -49,7 +50,7 @@ Avoid Jules for:
    - `git branch --show-current`
    - `git remote -v`
 
-2. Summarize the task clearly.
+2. Summarize the task clearly. If arguments were provided ($ARGUMENTS), use them as the primary task description.
 
 3. Create a high-context Jules prompt containing:
    - goal
@@ -88,7 +89,7 @@ Use this template when creating a Jules session:
 You are working on repository: <repo>
 
 Task:
-<task>
+<task> (Incorporate $ARGUMENTS if provided)
 
 Context:
 <context from codebase>
