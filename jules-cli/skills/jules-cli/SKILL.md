@@ -1,6 +1,6 @@
 ---
 name: jules-cli
-description: Delegate suitable coding tasks from Claude Code to Google Jules CLI, monitor sessions, and pull/review results.
+description: Use when the user wants to delegate coding tasks to Google Jules CLI from Claude Code. Handles jules installation checks, authentication, session creation, monitoring, pulling results, and local review before merging.
 ---
 
 # Jules CLI workflow
