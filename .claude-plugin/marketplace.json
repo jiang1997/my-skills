@@ -7,7 +7,7 @@
       "description": "Delegate suitable coding tasks from Claude Code to Google Jules CLI, monitor sessions, and pull/review results.",
       "source": {
         "source": "github",
-        "repo": "<OWNER>/<REPO>",
+        "repo": "jiang1997/my-skills",
         "path": "jules-cli"
       }
     }
