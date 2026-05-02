@@ -1,13 +1,16 @@
 {
   "name": "my-skills",
   "description": "Personal Claude Code plugins collection",
+  "owner": {
+    "name": "jieke"
+  },
   "plugins": [
     {
       "name": "jules-cli",
       "description": "Delegate suitable coding tasks from Claude Code to Google Jules CLI, monitor sessions, and pull/review results.",
       "source": {
-        "source": "github",
-        "repo": "jiang1997/my-skills",
+        "source": "git-subdir",
+        "url": "https://github.com/jiang1997/my-skills.git",
         "path": "jules-cli"
       }
     }
